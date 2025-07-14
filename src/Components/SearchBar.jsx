@@ -9,7 +9,7 @@ function SearchBox({onSearch}) {
     }
     
     return(
-        <div className="flex justify-center gap-x-4">
+        <div className="bg-white rounded-full py-3 flex justify-center gap-x-4">
         <input className="border-3 rounded-2xl text-xl px-15 py-2"
             type="text"
             placeholder="URL or Domain Name"
