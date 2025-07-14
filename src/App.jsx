@@ -26,7 +26,7 @@ function App() {
     }, []);
 
   return(
-    <div className="p-4">
+    <div className="bg-gray-300 p-4">
       <SearchBox onSearch={fetchIpData} />
       {IpData && (
         <>

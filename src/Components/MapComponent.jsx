@@ -19,7 +19,7 @@ function MapUpdater({ latitude, longitude }) {
 
 function MapComponent({ latitude, longitude, city }) {
   return (
-    <div className="mt-8 h-[400px] w-full max-w-4xl mx-auto">
+    <div className="mt-8 h-[450px] w-[900px] mx-auto">
       <MapContainer
         center={[latitude, longitude]}
         zoom={13}
